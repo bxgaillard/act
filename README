@@ -1,0 +1,43 @@
+Act : Auto-Completion Tree -- Implémentation d'un arbre d'auto-complétion
+Copyright (c) 2004 Benjamin Gaillard
+
+
+Ce programme permet l'entrée de texte avec propositions de mots pouvant
+compléter la frappe en cours. L'utilisation de ce programme est très
+intuitive ; c'est pour ça que je ne détaillerai pas son fonctionnement ici.
+Quant aux sources, elles sont très commentées, et devraient pouvoir être
+comprises sans grande difficulté.
+
+Une astuce est cependant à noter :
+Il n'exite pas de fonction toute faite dans l'interface graphique permettant
+de convertir un texte en dictionnaire. Pour ce faire, il suffit d'effectuer
+les manipulations suivantes :
+
+Fichier -> Nouveau
+Dictionnaire -> Effacer
+Fichier -> Ouvrir -> Sélectionnez le fichier texte -> OK
+Dictionnaire -> Enregistrer -> Sélectionnez le dictionnaire résultant -> OK
+
+Le répertoire `samples' contient le résultat de telles conversions sur
+quelques fichiers .txt.
+
+"Good luck & have fun!"
+
+Benjamin Gaillard
+b.gaillard@powercode.net
+
+------------------------------------------------------------------------------
+
+Ce programme est un logiciel libre ; vous pouvez le redistribuer et/ou le
+modifier conformément aux dispositions de la Licence Publique Générale GNU,
+telle que publiée par la Free Software Foundation ; version 2 de la
+licence, ou encore (à votre convenance) toute version ultérieure.
+
+Ce programme est distribué dans l'espoir qu'il sera utile, mais SANS AUCUNE
+GARANTIE ; sans même la garantie implicite de COMMERCIALISATION ou
+D'ADAPTATION À UN OBJET PARTICULIER. Pour plus de détail, voir la Licence
+Publique Générale GNU.
+
+Vous devez avoir reçu un exemplaire de la Licence Publique Générale GNU en
+même temps que ce programme ; si ce n'est pas le cas, écrivez à la Free
+Software Foundation Inc., 675 Mass Ave, Cambridge, MA 02139, États-Unis.

@@ -1,0 +1,4 @@
+Ce programme ne s'installe pas.
+
+Pour le compiler, taper `make'.
+Pour l'exécuter, lancer `act' ou taper `make run'
